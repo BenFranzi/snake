@@ -1,0 +1,16 @@
+{
+  "name": "snake",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron app.js",
+    "build": "electron-packager . snake"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-packager": "^8.4.0",
+    "electron-prebuilt": "^1.4.12"
+  }
+}
